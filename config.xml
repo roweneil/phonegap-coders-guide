@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.neilrowe.test"
+        versionCode = "1" 
+        version     = "1.0.0" >
+
+    <name>Coder's Guide</name>
+
+    <description>
+        Coder's Guide testing app.
+    </description>
+
+    <author href="http://neil-rowe.com" email="neil@coders-guide.com">
+        Neil Rowe
+    </author>
+
+    <icon src="icon.png" />
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+
+    <preference name="phonegap-version" value="3.1.0" />
+
+    <preference name="fullscreen" value="false" />
+
+    <preference name="android-minSdkVersion" value="9" />
+
+</widget>
